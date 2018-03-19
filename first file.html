@@ -1,0 +1,886 @@
+<!DOCTYPE html> <!--for html 5, always put this at the beginning-->
+
+<html>
+  <head>
+    <title>Starting out HTML!</title>
+    <link href="CSS/styles.css" type="text/css" rel="stylesheet" href="CSS/960_12_col.css"/>
+    <!-- You have to link this at the beginning of every HTML
+    file you create because that will be able to take things from that CSS file linked with. Also
+    always put it between the <head></head> section-->
+  </head>
+  <body>
+    <div class="container_12 clearfix">
+    <p class="note">
+      This page was written by
+      <a href="mailto:nayemalam@hotmail.com">
+        Nayem Alam </a></p>
+
+        <div class="fixed2">
+    <a href="#bottom"><img src="Images/down arrow.png" width="60" height="60" align="right"/></a>
+        </div>
+
+    <h5 id="top"> Top of the page Hyperlink</h5>
+    <h1>This is the Main Heading</h1>
+    <p>This text <b>might</b> be an <i>introduction</i> to the rest of the page.
+    And if the page is a long one, it might be split up into several
+    sub-headings. </p>
+    <h2>This is a Sub-Heading</h2>
+    <p>Many long articles have sub-headings so to help
+    you follow the structure of what is being written.
+    There may even be sub-sub headings or (lower-level headings).</p>
+    <h2>Another Sub-Heading</h2>
+    <p>This is a number that I want to superscript: e<sup>x</sup></p>
+    <p>This is a number that I want to subscript: O<sub>2</sub></p>
+    <h3>This is another Sub-Heading</h3>
+    <p>Now I will add breaks between lines. <br />
+      The white fox jumped <br />
+      on Krusty Krabs... <br />
+      <i>p.s. I know this makes no sense.</i>
+      <br/>
+      <hr/>
+      <strong>CHAPTER 2</strong>
+      <br/>
+    <h4>Yet ANOTHER Sub-Heading</h4>
+    <p> Just going to add a line at the bottom of
+      this page
+      <hr /></p>
+    <p>Now I will do some extra shit I'm learning from the book <br />
+      oh ya the book is called <a href="http://www.htmlandcssbook.com/" target="_blank">HTML and CSS
+      Design and Build Websites.</a></p>
+    <p><hr />So this is to use Block quotes, I never did it, so
+      lets try this: <blockquote> I dont even
+        know what I'm writing in this paragraph,
+        but yolo fam</blockquote> <br />
+oh sht this is fkn lit, it indents it for you.</p>
+    <p> Next, Ima write some abbreviations and acronyms: So <br />
+      <abbr title="Professor">Prof</abbr> Stephen Hawking is a theoretical
+        physicist. <br />
+      <acronym title="Nayem Alam">NA</acronym> No it does
+        stand for <em>Non-Applicable.</em>It stands <!--em stands for italic-->
+        for <b>Nayem Alam</b></p> <!--b stands for bold-->
+    <p>Hey, you can also email me by cicking this:
+      <address><a href="mailto:nayemalam@hotmail.com"><!--the <a href...></a> allows you to link anything-->
+        nayemalam@hotmail.com</a></address></p>
+    <p>OH MY GOODNESS, this is fkn lit, okay ima try more
+      of these:
+      Emails:<br />
+      <a href="mailto:fakeemail@google.com">
+        fakeemail@google.com</a> <br />
+      <a href="mailto:nayemalam@nothotmail.com">
+        Nayem</a>
+      <p>Right now Im going to edit these text. <br />
+        Right now I<ins>'</ins>m going to edit <del>these</del> <ins>this</ins> text.
+      <br/><br/> Another way to cross out words is by putting in
+      two guillemets (greater than or less than angles) and 's' between
+      so <s>I just crossed this entire sentence out.</s></p>
+      <br/>
+      <hr/>
+      <strong>CHAPTER 3</strong>
+      <p>Time to add bullet points and shit
+        like that!</p>
+      <p><i>Ordered List</i> <br/>
+        <ol>
+            <li>Spinach</li>
+            <li>Apple</li>
+            <li>Oranges</li>
+        </ol>
+        <br/>
+        <i>Unordered List</i><br/>
+          <ul>
+            <li>Spinach</li>
+            <li>Apple</li>
+            <li>Oranges</li>
+          </ul>
+        The difference between them:<br/>
+        Ordered involve numbers
+        whereas Unordered are like point forms
+      </p>
+      <p>Well now lets create a definition list: <br/>
+        <dl>
+          <dt>Nayem</dt>
+          <dd>A young man with various traits, often seen as a doppleganger of Salman Khan.</dd>
+          <dd>A young hoe, who is often hated on. </dd>
+          <dt>Yolo</dt>
+          <dd>The idea of only living once</dd>
+          <dd>I don't know another defintion</dd>
+          <br/>
+          Now let's just create one nested list
+          to see if it works:<br/>
+          <ul>
+            <li>Spinach</li>
+            <li>Apple</li>
+            <ul>
+              <li>Spinach</li>
+              <li>Apple</li>
+              <li>Oranges</li>
+            </ul>
+            <li>Oranges</li>
+          </ul>
+          <br/>
+          Okay maybe one more, with numbers now: <br/>
+          <ul>
+            <li>Spinach</li>
+            <li>Apple</li>
+            <ol>
+              <li>Spinach</li>
+              <li>Apple</li>
+              <li>Oranges</li>
+            </ol>
+            <li>Oranges</li>
+          </ul>
+        </p>
+        <br/>
+        <hr/>
+        <strong>CHAPTER 4</strong>
+        <p>Time to add some actual links</p>
+        <p> Let's link many pages within a list: <br/>
+          <ol>
+            <li><a href="www.home.com"> Home </a></li>
+            <li><a href="www.list.com"> List</a></li>
+            <li><a href="www.house.com"> Tabs </a></li>
+          </ol>
+        </p>
+        <p><hr/> now let's actually link these
+          things to stuff on my actual desktop: <br/>
+          <ul>
+            <li><a href="New CV 2017 ending.docx"> My CV </a></li>
+            <li><a href="second one.html"> Second Html File </a></li>
+        <p>Time to open links in new tabs</p>
+            <li><a href="second one.html" target="_blank">Second Html File</a></li>
+          </ul>
+        </p>
+        <p> Now let's link to a specific part on the same page: <br/>
+        </p>
+        <a href="#top">Click me to go to the top of the page</a>
+        <br/> Now let's click to go to another page
+        <a href="http:/www.htmlandcssbook.com/#bottom">Click me </a>
+        <br/>Do that in a new tab?
+        <br/><a href="http:/www.htmlandcssbook.com/#bottom" target="_blank">Click me</a>
+        <br/>
+        <hr/>
+        <p>hip hip hooray!</p>
+        <strong>CHAPTER 5</strong>
+        <p>Now, let's talk images</p>
+        <p>Time to insert an image:<br/>
+          <img src="Images/spongebob.png" alt="This is
+          a picture of spongebob." title="Spongebob Squarepants"/>
+          <p> woah, that's a bit too big, let's re-scale</p>
+          <img src="Images/spongebob.png" alt="This is a picture of
+          resized spongebob." title="Spongebob" width="300" height="300"/>
+          <br/> Perfect, now let's put this same image in different ways:
+          <br/>
+           <hr/> <u>Image before the text:</u> <!--incase it's not clear, <u> stands for underline-->
+          <img src="Images/spongebob.png" title="Spongebob" width="100" height="100"/> <p>This is an
+          image of spongebob, putting his hands up in the air.</p>
+           <hr/> <u>Image after the text:</u>
+          <p> This is an
+          image of spongebob, putting his hands up in the air.</p>
+          <img src="Images/spongebob.png" title="Spongebob" width="100" height="100"/>
+           <hr/> <u>Image between the the text:</u>
+          <p> This is an image of spongebob, <img src="Images/spongebob.png" title="spongebob squarepants" width="100" height="100"/> putting
+            his hands up in the air.</p>
+          <hr/><p> OR we can just use the align function so just for example, align to the right:</p>
+          <img src="Images/spongebob.png" title="spongebob" width="100" height="100" align="right"/>
+<br/><br/><br/><br/><br/>
+          <hr/>
+          <p>Now let's add figure caption for the image:</p>
+          <figure>
+            <img src="Images/spongebob.png" width="100" height="100"/>
+            <br/>
+            <figcaption>This is a picture of spongebob,
+            putting his hands up in the air.</figcaption>
+          </figure>
+          <br/>
+          <hr/>
+          <strong>CHAPTER 6</strong>
+          <p>Time to make tables!</p>
+          <p>Let's make a quick airhead table</p>
+          <table> <!--just found out how to write comments out here, soo will be doing that from now-->
+            <tr> <!--creates a new row (table row)-->
+              <td>34 35 36</td> <!--input elements inside the row (table description)-->
+            </tr><!--closes that row-->
+            <tr>
+              <td>45 78 20</td>
+            </tr>
+            <tr>
+              <td>01 93 90</td>
+            </tr>
+          </table>
+          <p>OR we can make a pyramid thingy</p>
+          <table>
+            <tr>
+              <td>&nbsp;&nbsp;&nbsp;&nbsp;30</td> <!--&nbsp stands for non-breaking space-->
+            </tr>
+            <tr>
+              <td>&nbsp;&nbsp;45  60</td>
+            </tr>
+            <tr>
+              <td>34 68 09</td>
+            </tr>
+          </table>
+          <p> OK. Damn, that took longer than expected</p>
+          <p> Okay forreal now though, I will re-do the table, just for practice </p>
+          <table>
+            <tr>
+              <td> This is first row</td>
+            </tr>
+            <tr>
+                <td>This is second row</td>
+            </tr>
+            <p>Now let's add some table, column and row headers: </p>
+            <table>
+              <th></th>
+              <th scope="col">Saturday</th>
+              <th scope="col">Sunday</th>
+            <tr>
+              <th scope="row">Total Sales:</th>
+              <td>135</td> <td>145</td>
+            </tr>
+            <tr>
+              <th scope="row">Total revenue:</th>
+              <td>135</td> <td>145</td>
+            </tr>
+          </table>
+            <p> Okay now let's span the columns:<br/>
+              <table>
+                <th></th>
+                <br/>
+                <th>9AM</th>
+                <th>10AM</th>
+                <th>11AM</th>
+                <th>12PM</th>
+              <tr>
+                <th>Monday</th>
+                <td colspan="2">Georgraphy</td>
+                <td>History</td>
+              </tr>
+              <tr>
+                <th>Tuesday</th>
+                <td colspan="3">Math</td>
+                <td>Art</td>
+              </tr>
+            </table>
+            <p>OK. so there were some other things
+              I just didn't put here, functions such as thead, tfoot, tbody etc...</p>
+              <br/>
+              <hr/>
+              <p> Oh yes! </p>
+              <strong>CHAPTER 7</strong>
+              <p>Lets make some forms (collecting info from users)!<br/>
+              Time for yall to write some sht: <br/></p>
+              <form action="http://www.example.com/login.php" target="_blank">
+                <p>Username:
+                <input type="text" name="username" maxlength="100"/></p>
+              </form>
+              <p>Now, let me get your passwords </p>
+              <form action="http://www.example.com/login.php" target="_blank">
+                <p> Username:
+                  <input type="text" name="username" maxlength="100"/> </p>
+                <p> Password:
+                  <input type="password" name="password" maxlength="100"/> </p>
+                </form>
+                <p>Now write your own comments fam</p>
+                <form action="http://www.example.com/login.php" target="_blank">
+                  <p>What do you think about this website?</p>
+                  <p>This is a custom expandable textbox with length = 30 and
+                  height = 6 </p>
+                    <textarea name="comments" cols="30" rows="6"> Enter your comments...
+                    </textarea>
+                  <p> Let's just do one more </p>
+                  <p>Enter you text below:</p>
+                  <textarea name="comments" cols="40" rows="5"> Enter whatever you want to...</textarea>
+                  </form>
+                  <p>How about choosing your favorite math course no?</p>
+                  <p>...yeah you're right, who likes math anyways? --- ME</p>
+                  <form action="http://www.example.com/profile.php">
+                  <p> What's your favorite science course?</p>
+                  <input type="radio" name="course" value="physics"/>Physics
+                  <input type="radio" name="course" value="chemistry"/>Chemistry
+                </p>
+              </form>
+              <p>Let me do another one</p>
+              <form>
+                <p>Select your favourite animal?</p>
+                <input type="radio" name="animal" value="dog"/> Dog
+                <input type="radio" name="animal" value="cat"/> Cat
+                <input type="radio" name="animal" value="dinosaur"/> Dinosaur
+            </form>
+            <p>Now it's time for checkboxes:</p>
+            <form action="http://www.example.com/login.php" target="_blank">
+              <p>What is your favorite music service(s):</p>
+              <input type="checkbox" name="service" value="itunes">iTunes
+              <input type="checkbox" name="service" value="spotify">Spotify
+              <input type="checkbox" name="service" value="bangladesh">Bangladesh
+            </p>
+          </form>
+          <p> Alright fam, next it's time
+            to make a dropdown list</p>
+            <form action="http://www.example.com/login.php" target="_blank">
+              <p>What is your favorite music service?</p>
+              <select name="Services">
+                <option value="spotify">Spotify</option>
+                <option value="itunes" selected="selected">iTunes</option>
+                <option value="windows music">Windows Music</option>
+              </select>
+            </form>
+            <p> Now you can choose multiple options<p/>
+              <form action="http://www.example.com/login.php" target="_blank">
+                <p>What is your favorite food? (you can select
+                  more than one answer).</p>
+                  <select name="Foods" multiple="multiple" size="3">
+                    <option value="apple">Apple</option>
+                    <option value="orange">Orange</option>
+                    <option value="Avocado" selected="selected">Avocado</option>
+                  </select>
+                </form>
+                <p> Let's just make another one for the fun of it:</p>
+                <form action="http://www.example.com/login.php" target="_blank">
+                  <p>What is you favorite brand?</p>
+                  <select name="brands" size="4" multiple="multiple">
+                    <option value="nike">Nike</<option>
+                    <option value="telus">Telus</option>
+                    <option value="puma">Puma</option>
+                    <option value="Jordan" selected="selected">Jordan</option>
+                  </select>
+                </form>
+                <p>Now it's your turn to upload some stuff:</p>
+                <form action="http://www.example.com/upload.php" size="4" method="post">
+                  <p>Upload whatever</p>
+                  <input type="file" name="anything"/>
+                  <input type="submit" value="Submit"/>
+                </form>
+                <p>Just going to try this one more
+                  time</p>
+                  <form action="http://www.example.com/upload.php"
+                  <p>Upload any file format</p>
+                  <input type="file" name="picture"/><br/>
+                  <input type="submit" value="Upload"/> <!--notice the "value"
+                  it will change the type's name-->
+                <form>
+                  <p>Subscribe to our mailing list</p>
+                  <input type="text" maxlength="50"/>
+                  <input type="submit" value="Subscribe"/>
+                </form>
+                <p>Time to make a picture clickable for uploading</p>
+                <form action="http://www.example.com/upload.php">
+                  <p>I'll be using spongebob image for all images on this page</p>
+                  <input type="text" />
+                  <input type="image" src="Images/spongebob.png" width="50" height="50"/>
+                </form>
+                <p> Click on the next image</p>
+                <a href="http://www.ytv.com/shows/spongebob-squarepants" target="_blank"> <img src="Images/spongebob.png" width="50" height="50"></a>
+              </form>
+              <p> Lol just experimenting</p>
+              <p>Let's bring in labels!<p>
+                <lable>
+                  <p>Age
+                  <input type="text" name="number"/></p></label>
+                  Gender:
+                  <input id="male" type="radio" name="gender" value="m">
+                  <label for="male">Male</label>
+                  <input id="female" type="radio" name="gender" value="f">
+                  <label for="female">Female</label>
+                <p>Now let's group form elements</p>
+                <fieldset>
+                  <legend> Contact Details</legend>
+                  <label> Email: <br/>
+                  <input type="text" name="email"/></label><br/>
+                  <label> Mobile: <br/>
+                  <input type="text" name="mobile"/> </label><br/>
+                  <label> Telephone:<br/>
+                  <input type="text" name="telephone"/></label>
+                </fieldset>
+                <div>
+                <p>Form Validation/Form reminder:</p>
+                <form action="http://www.example.com/login.php" target="_blank" method="post">
+                  <label for="username"> Username </label>
+                  <input type="text" name="username" placeholder="User" required="required"/><br/><br/>
+                  <lable for="password"> Password&nbsp; </label>
+                  <input type="password" name="password" placeholder="Password" required="required"/>
+                  <input type="submit" value="Submit"/>
+                </form>
+              </div id=reminder>
+                <p>Just going to go back to the beginning of this chapter and make my own table again, for practice</p>
+                <table>
+                  <th></th>
+                  <th>Saturday</th>
+                  <th>Sunday</th>
+                  <th>Monday</th>
+                  <tr>
+                    <th>9AM</th>
+                    <td colspan="2">Math</td>
+                    <td>Geo</td>
+                  </tr>
+                  <tr>
+                    <th>10AM</th>
+                    <td>Art</td>
+                    <td>Hist</td>
+                    <td>Music</td>
+                  </tr>
+                  <tr>
+                    <th>11AM</th>
+                    <td colspan="3">Humanities</td>
+                  </tr>
+                </table>
+                <p>Ok. we good, back to same place we left off: how to put dates:</p>
+                <form action="http://www.example.com/bookings/">
+                  <label for="Departure Time"> Departure Date:</label>
+                  <input type="date" name="departure"/>
+                  <input type="submit" value="Submit"/>
+                </form>
+                <p>Email and URL input:</p>
+                <form action="http://www.example.com/subscribe.php" target="_blank">
+                <p> Please enter your email address below:</p>
+                <input type="email" name="email"/>
+                <input type="submit" value="Submit"/>
+                <p>Please enter a URL below:</p>
+                <input type="url" name="random address"/>
+                <input type="submit" value="Submit"/>
+              </form>
+              <form>
+              <p>Time to let you search my site</p>
+              <label for="search">Search:</label>
+              <input type="search" name="search"/>
+              <input type="submit" value="Search"/>
+              <p>We can do the same thing but put in words now, so:</p>
+              <label for="search">Search:</label>
+              <input type="search" name="search" placeholder="Search Something Fam"/>
+              <input type="submit" value="Search"/>
+            </form>
+            <br/>
+            <hr/>
+            <p> Oh yes! </p>
+            <strong>CHAPTER 8</strong>
+            <p>Let's learn some extra markups</p>
+            <br/>Check this:
+            id attribute is very important in both CSS and HTML (from what I gather from the book)
+            anyways if I use id "pullquote" then it will make all the text upper case:
+            <p>Hey this is a testing parapgraph with exactly ThE WaY I TYpED It</p>
+            <p id="pull quote"> Hey this is a testing parapgraph with exactly ThE WaY I TYpED It</p>
+            <p>damn, it didn't work... <br/> wtv not important anwyays, I can just write caps everywhere</p>
+            <p> HEY THIS IS A TESTING PARAGRAPH WITH EXACTLY THE WAY I TYPED IT<br/> ugh takes a while...</p>
+            <p> EDIT: I ended up learning how to do it: </p>
+            <a href="#allcaps">Click me to go to the section I did it at</a></p><br/>
+            <p>OK. So, these are some important attributes:</p>
+            <p> the <"id"> attribute: allows the user to uniqeuly identify that <b>single element</b> from any other element.</p>
+            <p> the <"class"> attribute: allows the user to uniquely identify <b>several elements</b> from any other element.</p>
+            <p>Grouping texts and elements in a block.</p>
+            <div id="header">
+              <img src="Images/apple.png" width="50" height="50" alt="Nayem Alam">
+              <ul>
+                <li><a href="second one.html">Home</a></li>
+                <li><a href="second one.html">Comments</a></li>
+                <li><a href="second one.html">Links</a></li>
+              </ul>
+            </div><!--End of header-->
+            <p>Now let's put a map down here:</p>
+            <iframe
+              width="450"
+              height="300"
+              src="http://maps.google.com/maps?q=montreal+bell+center&amp;output=embed">
+              <!--how to put a maps link? so this is the template: "http://maps.google.com/maps?q=[search your location with '+' in between each word]
+              and then end with &amp;output=embed", that's it-->
+            </iframe>
+            <p>Doing this again but now with scrolling and borders</p>
+            <iframe
+              width="450"
+              height="300"
+              src="http://www.ytv.com/shows/spongebob-squarepants"
+              scrolling="auto"
+              frameborder="0"> <!--a value of 0 or 1 means, no border and yes border respectively-->
+              <!--Scrolling can be defined with "yes" or "no" or"auto" -->
+            </iframe>
+            <meta name="description"
+            content="A self-taught HTML user"/>
+            <meta name="robots"
+            content="follow"/> <!-- nofollow means search engines can add this page in its results but no other page it links to
+          and noindex means this page will not be displayed on the search engine(s)-->
+            <meta name="keywords"
+            content="nayem, engineer, html, user, beginner"/>
+            <meta http-equiv="author"
+            content="Nayem A"/>
+            <meta http-equiv="pragma"
+            content="no-cache"/>
+        <!--<meta http-equiv="expires"
+            content="Friday at 5:00PM"/> - this webpage will expire on Friday at 5:00PM, will no longer be cached -->
+            <br/>
+            <hr/>
+            <p> Oh yes! </p>
+            <strong>CHAPTER 9</strong>
+            <p>Now time to add audio, video and flash on this site</p>
+            <p>Let's add a flash movie</p>
+            <script type="text/javascript"
+            src="http://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
+            <script type="text/javascript">
+            swfobject.embedSWF("flash/bird.swf", "bird", "400", "300", "8.0.0");</script>
+            <div id="bird"><p>This is a bird</p></div>
+            <p> Err.. it isn't working...</p>
+
+          <p> Time to add a video to my page:</p>
+          <video src="tanzin.mov"
+          width="400" height="200"
+          controls
+          loop> <!--poster="" attribute is used for the thumbnail of the video-->
+        </video><br/>
+        <br/>
+        Review:
+        <br/>
+        Make a table that creates the shape 'T':
+        <br/><br/>
+        <table>
+          <tr>
+            <td>30 46 55 60</td>
+          </tr>
+          <tr><td>&emsp;&emsp;46</td></tr> <!--NOTE: &emsp; is 4 &nbsp;-->
+          <tr>
+            <td>&emsp;&emsp;55</td></tr>
+          <tr>
+            <td>&emsp;&emsp;60</td></tr>
+          </table><br/>
+          <div>
+          <p>Collect information:</p>
+          <form action="http://youtube.com/search.php" target="_blank">
+          <fieldset>
+            <p>Contact Details</p>
+            <label for="email">Email:&emsp;&nbsp;&nbsp;</label>
+            <input type="email" name="email" placeholder="Hotmail, Gmail, Ymail, etc." required="required"/><br/><br/>
+            <label for="password">Password:</label>
+            <input type="password" name="password" placeholder="Password" required="required"/>
+            <input type="submit" value="Submit"/>
+          </fieldset>
+        </form>
+        </div id="contact reminder">
+<br/><br/>
+        <strong>END OF HTML</strong>
+        <hr/><hr/><hr/><hr/>
+
+        <!--Start of another markup language!-->
+        <br/>
+        <p> Oh yes! </p>
+        <strong>CHAPTER 10</strong>
+
+        <figcaption> Introduction to CSS</figcaption> <!--adds a caption under any element-->
+      <p> Let's add color and text to this page</p>
+      <!--First we created a new file called
+      styles.css under the CSS folder on desktop-->
+      <h1 id="Potatoes">Potatoes</h1>
+      <p id="p1">There are <b id="dozens">dozens</b> of different <i id="potato">Potato</i>
+        varieties.</p>
+        <p> Change the font size: </p>
+        <p id="hello1"> Hello</p>
+        <p id="hello2"> Hello</p>
+        <p id="hello3"> Hello</p>
+      <p> Let's add border and force inherit stuff now:</p>
+        <div id="page">
+          <h1 id="Potatoes2">Potatoes</h1>
+          <p id="paragraph">&emsp;&emsp;There are dozens of different potato varieties.</p>
+          <p id="paragraph2">&emsp;&emsp;They are usually described as early, second
+            early and maincrop potatoes.</p>
+        </div>
+
+        <h1 id="marinebio">Marine Biology</h1>
+        <h4 id="seawater">&emsp;The Composition of Seawater</h4>
+        <p id="pseawater">Almost anything can be found on seawater...</p>
+        <p>Now we'll do the same but add background to it</p>
+        <div id="marine">
+        <br/>
+        <h1 id="marinebio2">Marine Biology</h1>
+        <h4 id="seawater2">&emsp;The Composition of Seawater</h4>
+        <p id="pseawater2">Almost anything can be found on seawater...</p>
+        <br/>
+      </div>
+      <p> We can also change the opacity of elements like so:</p>
+      <b id="hello4">Hello</b>
+      <b id="hello5">Hello</b>
+      <b id="hello6">Hello</b>
+      <p id="allcaps">Remember, I tried transforming the text into all caps
+        but I was unsuccesful? Let's do it with CSS now:</p>
+        <p id="capslock1">Original:</p>
+        <p>Hey this is a testing parapgraph with exactly ThE WaY I TYpED It</p>
+        <p id="capslock2">Transformed: </p>
+        <p id="capslock3">Hey this is a testing parapgraph with exactly ThE WaY I TYpED It</p>
+        <p id="yes">yes! we did it!!</p>
+        <p> I can also space the words and letters: </p>
+        <p id="hello7">Hello</p>
+        <p id="hello8">Hello my name is</p>
+        <p> Now I'm going to vertically align the following:</p>
+        <p id="oneyear"> One Year</p>
+        <p id="twoyear">Two Years</p>
+        <p id="threeyear">Three Years</p>
+        <p id="bg">Apple Logo</p>
+        <p>Let's indent the following:</p>
+        <br/>
+        Apple<br/><br/>
+        <p id="indent">Apple is a very well known company that<br/>
+          has a great reputation and has built/developed itself over the years.
+        </p>
+        <p>Time to change the first letter and first line:</p>
+        <br/>
+        <p id="apple">Apple</p><br/>
+        <p id="indent2">Apple is a very well known company that<br/>
+          has a great reputation and has built/developed itself over the years.
+        </p>
+        <p>Now, I can change the color and hover of how a user clicks a link</p>
+
+        <a id="home" href="www.home.com" target="_blank"> Home </a><br/>
+        <a id="list" href="www.list.com" target="_blank"> List</a><br/>
+        <a id="house" href="www.house.com" target="_blank"> Tabs </a>
+        <hr/>
+        <br/>
+        <br/>
+        <strong>CHAPTER 13</strong>
+        <p>Changing the appearance of a box size and its contents:</p>
+        <div class="boxes"> <!--you put class size to call it in CSS as div.boxes-->
+          <p id="box">A company pioneered the commercial manufacture of modular voltage control.</p>
+        </div>
+        <p>Setting max/min width for the text size so it appears nice on mobile devices:<p/>
+          <table>
+          <tr>
+            <th>Photo</th>
+            <th colspan="2">Description</th>
+            <th>Price</th>
+          </tr>
+          <tr>
+            <td></td>
+            <td colspan="2" class="description">The rhodes piano is an electro-mechanical
+              piano, invented by Harold Rhodes during the fifties...</td>
+            </td>
+            <td>$1200</td>
+          </tr>
+        </table>
+        <p>Also, instead of using the standard <'hr/'> to put a line
+          on the bottom, we can use CSS to make a colorful one and also any width.</p>
+          <p id="line"> I am going to add a line underneath me, in a light blue color.</p>
+          <p id="leverywhere"> We can also put borders everywhere, check all around this paragraph.</p>
+          <p> What happens if there is too much text and it exceeds the predetermined
+            box's size></p>
+          We use a scroll function.
+          <p id="full"> <i>Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum
+            Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum
+            Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum
+            Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum
+          ........ </i> </p>
+          <p> I can also make different margin types:</p>
+          <p id="margin1">Hohner's Clavinet is essentially
+            an electric clavichord</p>
+          <p id="margin2">Hohner's Clavinet is essentially
+            an electric clavichord</p>
+          <p id="margin3">Hohner's Clavinet is essentially
+              an electric clavichord</p>
+          <p id="margin4">Hohner's Clavinet is essentially
+                  an electric clavichord</p>
+          <p> Center a box in the middle:</p>
+          <div class="centre">
+            <p class="ex">Analog synhesizers are often said to have a"warmer" sound than their digital counterparts.</p>
+            <p class="ex2">Analog synhesizers are often said to have a"warmer" sound than their digital counterparts.</p>
+          </div>
+          <p> Change inline and block elements:</p>
+          <ul>
+            <li id="one">Home</li>
+            <li id="two">Product</li>
+            <li class="coming-soon">Services</li>
+            <li id="three">About</li>
+            <li id="four">Contact</li>
+          </ul>
+          <p>Time to take an image and make it as a border:</p>
+          <p class="image"></p>
+          <hr/>
+          <br/>
+          <br/>
+          <strong>CHAPTER 14</strong>
+          <p>Now let's go back to doing lists, tables and forms but in CSS.</p>
+          <p> We can change a list's style:</p>
+          <p>Ordered List</p>
+          <ol id="ol">
+            <li>Life</li>
+            <li>Nature</li>
+            <li>Love</li>
+            <li>Time and Eternity</li>
+            <li>Gang</li>
+          </ol>
+          <p>Unordered List</p>
+          <ul id="ul">
+            <li>Life</li>
+            <li>Nature</li>
+            <li>Love</li>
+            <li>Time and Eternity</li>
+            <li>Gang</li>
+          </ul>
+          <p>Putting a border around tables' elements.</p>
+          <table class="wan">
+            <tr class="td1">
+              <td>1</td>
+              <td>2</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>4</td>
+            </tr>
+          </table>
+          <p>Let's change the cursor style, hover over the following links and
+            the cursor's will change:</p>
+            <a class="web1" href="http://www.yolo.com">Hover Over Me</a><br/><br/>
+            <a class="web2" href="http://www.yolo.com">Hover Over Me</a><br/><br/>
+            <a class="web3" href="http://www.yolo.com">Hover Over Me</a><br/><br/>
+            <a class="web4" href="http://www.yolo.com">Hover Over Me</a>
+            <hr/>
+            <br/>
+            <br/>
+            <strong>CHAPTER 15</strong>
+            <p>Let's finally get to the juicy stuff, creating layouts
+              different sized screens, controlling position of elements!</p>
+              <p>Let's first position elements</p>
+              <p class="ex1">The great white shark is a hoe.</p>
+
+              <br/><br/><img class="underlap" src="Images/dots.png" width="100" height="100"/>
+              <br/><br/>I can also overlap or underlap elements, so I'll put
+                image behind this text
+              <br/><br/><br/><p>Time to write a text and put a quote beside it.</p>
+              <h1> The Evolution of the Bicycle</h1>
+
+              <img class="bikes" src="Images/bikes.gif" width="300" height="200"/>
+              <p>The bicycle has a history that goes back about 600 years and is quite different than the bike as we know today.
+                  Many major innovations have dramatically transformed the bicycle's form and features over the years.
+                  Earlier models had two wheels, but no way to steer, and even required a running
+                  start. One at a time, features were slowly developed such as mechanisms to steer,
+                  a way to propel the bicycle forward without touching the ground,
+                  and system to slow and stop the bike.</p>
+              <blockquote id="float">"Life is like riding a bicycle. To keep
+                  your balance you must keep moving." - Albert Einstein</blockquote>
+              <p>1790 - Celerifere - Invented by Comte Mede de Sivrac,
+                  it has two equal-sized wheels and a seat, but no steering, brakes,
+                  or pedals. The rider powers forward using their feet for a walking
+                  or running start then glides on the celerifere.</p>
+              <p>1817 - Steerable Laufmaschine - This machine goes by many names,
+                  including the running machine, velocipede, Draisine, and the swift-walker.
+                  The wooden steerable laufmaschine has a steerable front wheel and is the
+                  first appearance of the two-wheeler principle.</p>
+              <figcaption> Please note all text and images are taken directly off of: <a href="http://www.evelo.com/history-of-the-bicycle/" target="_blank">http://www.evelo.com/history-of-the-bicycle/</a>
+
+                <p>Time to make fixed width layouts.</p>
+              <div class="container_12 clearfix">
+                <div id="header">
+                  <h3><img class="float2" src="Images/apple.png" width="50" height="50"/></h3>
+                  <div id="nav">
+                    <ul id="list2">
+                        <li class="one1">Home</li>
+                        <li class="two2">Products</li>
+                        <li class="three3">Services</li>
+                        <li class="four4">About</li>
+                        <li class="five5">Contact</li>
+                    </ul>
+                  </div>
+                </div>
+              <div id="content">
+                <div id="feature">
+                  <p>Features</p>
+                  <br/><br/><br/><br/>
+                </div>
+                <div class="column1">
+                  <p>Column One</p>
+                </div>
+                <div class="column2">
+                  <p>Column Two</p>
+                </div>
+                <div class="column3">
+                  <p>Column Three</p>
+                </div>
+              </div> <!--end of #content-->
+              </div> <!--end of .container_12-->
+                <div class="footer">
+                  <p align="center">&copy; Copyright 2017</p>
+                </div>
+
+
+                <p align="center">Also, these are just symbols for reference: <br/>
+                  I'm going to add a tradmark symbol ('&trade;') <br/>
+                  I'm going to add the copyright symbol ('&copy;') <br/>
+                  I'm going to add the registered symbol ('&reg;')</p>
+                  <p>Now I'm going to use my own fonts installed</p>
+                  <p class="robots">This font is the Roboto Condensed-Light Italic.</p>
+                  <p class="chunk">This font is the Chunkfive font.</p>
+                  <p class="samsung">This font is the Samsung font.</p>
+                  <hr/>
+                  <br/>
+                  <br/>
+                  <p>WE ALMOST DONE!</p>
+                  <strong>CHAPTER 16</strong>
+                  <p> This section explains how to use a rollover,
+                    I won't do it here because it's a good amount of code.
+                    But bascially if you hover over a link or a button,
+                    it will change to a second style. (p.417)</p>
+                  <hr/>
+                  <br/>
+                  <br/>
+                  <strong>CHAPTER 17</strong>
+                  <p>Pgs 431-432 are good pages to understand an ideal
+                    HTML5 layout.</p>
+                  <p>Some terms to know about HTML and CSS:</p>
+                  <table id="tabinfo">
+                    <th colspan="2">Element names</th>
+                    <th colspan="10">Description</th>
+                    <tr>
+                      <td colspan="2"><'article'></td>
+                      <td colspan="10">creates a container for any section of the page.</td>
+                    </tr>
+                    <tr>
+                      <td colspan="2"><'aside'></td>
+                      <td colspan="10">creates a container for anything on the sides, usually stuff likke
+                        "author's tweets" or "side-info."</td>
+                    </tr>
+                    <tr>
+                      <td colspan="2"><'section'></td>
+                      <td colspan="10">element grouos related content together and typically
+                        each section has its own heading. So ex: if you have long article, then you
+                        can split it up into sections.</td>
+                    </tr>
+                    <tr>
+                      <td colspan="2"><'hgroup'></td>
+                      <td colspan="10">groups together more than 1 header elements so it
+                        is treated as one single heading (typically edit all headings at once)..</td>
+                    </tr>
+                    <tr>
+                      <td colspan="2"><'figure'>/<'figcaption'></td>
+                      <td colspan="10">used to reference anything from the main
+                        flow of an article, such as: images, videos, graphs, diagrams,
+                        code samples, etc. Usually it should contain a figcaption element to
+                        provide a description of the content.</td>
+                    </tr>
+                    <tr>
+                      <td colspan="2"><'div'></td>
+                      <td colspan="10">This element has been used various times in the website
+                        and it is used to section elements. It is used as a wrapping element.</td>
+                    </tr>
+                    <tr>
+                      <td colspan="2"> <'a'></td>
+                      <td colspan="10">Allows you to link elements.</td>
+                    </tr>
+                  </table>
+                <hr/>
+                <br/>
+                <br/>
+                <strong>CHAPTER 18</strong>
+                <p>Example of a wireframe is on p.464. A wireframe is a simple
+                  sketch on what you will put on your website.</p>
+                <hr/>
+                <br/>
+                <br/>
+                <strong>CHAPTER 19</strong>
+                <p>Make sure to comeback to this chapter when finalizing
+                  your website because it gives tips on how it can
+                  appear on search engines</p>
+                <h1 id="samsung1">WE'RE FINALLY DONE!!!...NOW YOU CAN START BUILDING YOUR WEBSITE,
+                  STILL MORE TO LEARN BUT FOR NOW, LET'S GET TO IT!</h1>
+
+
+            <p id="bottom"></p>
+          <!--  <button onclick="topFunction()" id="myBtn" title="GO to top">Top</button>-->
+
+          <div class="fixed">
+          <a href="#top"><img src="Images/up arrow.png" width="50" height="50"/></a>
+          <div>
+
+
+</div><!-- end of container_12 -->
+    </body>
+</html>
