@@ -1,4 +1,4 @@
-# Welcome to my jounrey on learning HTML and CSS
+# Welcome to my journey on learning HTML and CSS
 
 Major thanks to multiple YouTubers (whose name's I do not recall, "HTML & CSS design and build websites by Jon Duckett" and coffee for late night curiosity. 
 
