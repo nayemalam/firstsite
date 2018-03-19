@@ -1,0 +1,450 @@
+/* So this is the sheet that links the "first file.html" file and has all the codes for it
+Also, all the '#' ones are a specific id, specified on the HTML fie*/
+
+@import url("960_12_col.css"); /*allows you to import another sheet in this sheet, on the same
+folder and you can call anything that's in it and it will work. For ex, container_12 is used
+in HTML file*/
+
+@font-face { /*Make sure you have the fonts located where the CSS file is*/
+  font-family: roboto;
+  src: url(fonts/RobotoCondensed-LightItalic.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: chunk;
+  src: url(fonts/chunkfive.otf);
+}
+@font-face {
+  font-family: samsung;
+  src: url(fonts/RobotoCondensed-Bold.ttf);
+}
+
+.robots {
+  text-transform: uppercase;
+  font-family: roboto;
+}
+.chunk {
+  text-transform: uppercase;
+  font-family: chunk;
+}
+
+.samsung {
+  text-transform: uppercase;
+  font-family: samsung;
+}
+
+body {
+  color: white;
+  background: #d3cdc0 url("backgrounds/smoke.png"); /*put this in the CSS folder containing CSS file*/ /*adds a background image*/
+  background-repeat: no-repeat; /*does not repeat the background*/
+  background-size:cover; /*covers the entire background*/
+  background-attachment: fixed; /*keeps the background fixed*/
+
+
+}
+#Potatoes {
+  color: red;
+}
+#p1 {
+  font-family: arial;
+}
+#dozens {
+  font-family:monospace; color: cyan;
+}
+#potato {
+  color: orange;
+}
+#hello1 {
+  font-size: 100%;
+}
+#hello2 {
+  font-size: 50%
+}
+#hello3 {
+  font-size:150%
+}
+#Potatoes2 {
+  font-family: arial;
+}
+#page {
+  border: 2px solid #665544;
+  background-color: #efefef;
+  padding: inherit;
+}
+#paragraph {
+  color: #665544;
+
+}
+#paragraph2 {
+  color: purple;
+}
+#marinebio {
+  color: DarkCyan;
+}
+#seawater {
+  color: #ee3e80;
+}
+#pseawater {
+  color: rgb(100,100,90); /* RGB stands for
+  red green and blue, so each of the three numnbers
+  correspond to each color respectively
+  i.e. in this case there is 100 area of red, 100 area of green
+  and 90 area of blue [ Can only be in between 0-255]*/
+}
+/* we wont be using this for now */ #myBtn {
+  display: none; /*Hidden by default*/
+  position: fixed; /*Fixed postion*/
+  bottom: 20px; /*Place the button at the bottom of the page*/
+  right: 30px; /*Place button 30px from the right*/
+  z-index: 99; /*Makes sure it does not overlap*/
+  border: none; /*Remove borders*/
+  outline: none; /*Remove outline*/
+  background-color: red; /*sets a background color*/
+  color: white; /*sets a text color*/
+  cursor: pointer; /*Adds a mouse pointer on hover*/
+  padding: 15px; /*Some padding (Generates space around the content)*/
+  border-radius: 10px; /*Makes rounded corners*/}
+
+/* won't be using this button either*/#myBtn:hover {
+  background-color: #555; /*Adds a dark-grey background on hover*/}
+  #marine {
+    background-color: rgb(200,200,200);
+    border: 2px solid;
+  }
+  #marinebio2 {
+    background-color: DarkCyan;
+    color: white;
+  }
+  #seawater2 {
+      background-color: #ee3e80;
+      color: white;
+  }
+  #pseawater2 {
+    background-color: white;
+    line-height: 1.4em;
+  }
+#hello4 {
+  opacity: 0.75; /*0.75 in opacity means 50%*/
+}
+#hello5 {
+  opacity: 0.50;
+}
+#hello6 {
+  opacity: 0.25;
+}
+body {
+  font-family: serif, Times, georgia; /*This is specifying a list of fonts,
+  doing this allows the browser to display any one of these fonts, because some browsers dont support some
+  so if serif is not supported, then it will display times, and etc.*/
+  font-size: 16px; /*the normal browser font-size. which is equivalent to:
+  font-size: 100% */
+}
+h1,h2,h3,h4,h5,h6,Potatoes, Potatoes2, marinebio, marinebio2, seawater2, seawater {
+  font-family: "Courier New", courier, monospace;
+}
+#capslock1, #capslock2, #capslock3 {
+  text-transform: uppercase; /*Transforms to uppercase*/
+}
+#yes {
+  text-transform: capitalize; /*capitalizes every words first letter*/
+  text-decoration: underline;
+}
+#hello7 {
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+}
+#hello8 {
+  text-transform: uppercase;
+  word-spacing: 1em;
+}
+#oneyear {
+  text-align: left;
+  vertical-align: top;
+}
+#twoyear {
+  text-align: center;
+  vertical-align: baseline;
+}
+#threeyear {
+  text-align: right;
+  vertical-align: bottom;
+}
+#bg {
+  background-image: url("Images/spongebob.png");
+  background-repeat: no-repeat;
+}
+#indent {
+  text-indent: 30px; /*Indents the first line of text*/
+}
+#apple::first-letter { /*changes the first letter */
+  font-size: 200%;
+}
+#indent2::first-line { /*changes the first line*/
+  font-style: italic;
+  text-indent: 10px;
+}
+#home {
+  vertical-align: top;
+}
+#list {
+  vertical-align: baseline;
+}
+#house {
+  vertical-align: bottom;
+}
+#home:link { /*allows to set style that have not yet been visited*/
+  color: deeppink;
+}
+#list:link {
+  color:deeppink;
+}
+#house:link {
+  color: deeppink;
+}
+#home:visited { /*allows you to set the style of links that have already been clicked on*/
+  color: black;
+}
+#list:visited {
+  color: black;
+}
+#house:visited {
+  color: black;
+}
+#home:hover { /*when the mouse hovers over a link, it can change its style*/
+  color: green;
+  text-decoration: underline;
+}
+#list:hover {
+  color: green;
+  text-decoration: underline;
+}
+#house:hover {
+  color: green;
+  text-decoration: underline;
+}
+#home:active { /*when the user clicks a link, it can change color or anything to show an action that occured while clicking the link*/
+  color: darkcyan;
+}
+#list:active {
+  color: darkcyan;
+}
+#house:active {
+  color: darkcyan;
+}
+div.boxes { /*In HTML this is called because we named it as <div class="boxes">*/
+  height: 300px;
+  width: 300px;
+  background-color: deeppink;
+}
+#box {
+  height: 75%;
+  width: 75%;
+  background-color: #0088dd;
+}
+td.description {
+  min-width: 450px; /*limiting the width*/
+  max-width: 650px;
+  max-height: 600px; /*sets a max and min height*/
+  min-height: 450px;
+  text-align: left;
+  padding: 5px;
+  margin: 0px;
+}
+#line {
+  border-bottom: 1px solid #0088dd; /*adds a border wherever you want it to*/
+}
+#leverywhere {
+  border-top: 4px solid red;
+  border-bottom: 4px solid blue;
+  border-right: 6px solid black;
+  border-left: 6px solid black;
+  padding: 0.5px;
+}
+#full {
+  height: 75px;
+  length: 500px;
+  overflow: scroll;
+}
+#margin1 {
+  border-style: dashed; /*specifies a border style*/
+}
+#margin2 {
+  border-style: dotted;
+}
+#margin3 {
+  border-style: groove;
+}
+#margin4 {
+  border-style: outset;
+}
+div.centre {
+  text-align: center; /*Aligns the text at the center*/
+}
+p.ex {
+  width: 300px;
+  padding: 50px;
+  border: 20px solid blue;
+}
+p.ex2 {
+  margin: 10px auto 10px auto;
+  text-align: center;
+}
+#one {
+  display: inline; /*display allows you to change inline to block and vice versa*/
+  margin-right: 10px;
+}
+#two {
+  display: inline;
+  margin-right: 10px;
+}
+#three {
+  display: inline;
+  margin-right: 10px;
+}
+#four {
+  display: inline;
+  margin-right: 10px;
+}
+li.coming-soon { /*will hide the info, but users can see it if they
+  "view source" on the page*/
+  display: none;
+}
+p.image {
+  -moz-border-image: url("dots.png")
+  11 11 11 11 stretch;
+  -webkit-border-image: url("dots.png")
+  11 11 11 11 stretch;
+  border-image: url("dots.png")
+  11 11 11 11 stretch;
+}
+#ol {
+  list-style-type: lower-roman; /*changes the list's style-type*/
+}
+#ul {
+  list-style-type: square;
+}
+td { /*Notice, this changes all table descriptions on the website*/
+  border: 1px solid #0088dd;
+  padding: 15px;
+}
+table.wan {
+  empty-cells: show;
+}
+a.web1 {
+  cursor: move;
+}
+a.web2 {
+  cursor:copy;
+}
+a.web3 {
+  cursor:cell;
+}
+a.web4 {
+  cursor: crosshair;
+}
+p.ex1 {
+  position: relative; /*positions the elements in relation to the browser window
+  so when you scroll, it will stay in the exact same place*/
+  top: 30px; /*positions the element x spx from the top*/
+  left: 100px; /*positions the elements x px from the left*/
+  height: 50px; /*creates a height from the text created*/
+  width: 25px; /*creates the width of the box around the element, so I put 25px
+  so the box is like a vertical rectangle, and the writing stays within that box but it
+  preserves all words*/
+}
+ div.fixed {
+  position: fixed;  /*positions the elements in relation to the browser window
+  so when you scroll, it will stay in the exact same place*/
+  bottom: 12px;
+  right: 12px;
+}
+div.fixed2 {
+  position: fixed;  /*positions the elements in relation to the browser window
+  so when you scroll, it will stay in the exact same place*/
+  top: 12px;
+  right: 12px;
+}
+img.underlap {
+  position: absolute;
+  z-index: -1; /*this allows you to overlap or underlap an image on a text,
+  bascially if z-index is -1 then undelaps, and 1 is overlap.*/
+  left: 200px;
+}
+img.overlap {
+  positon: absolute;
+  z-index: 1;
+}
+img.bikes {
+  display: block; /*if you want to center an image: you have to
+  make it into a block element first and then make the margin: auto; */
+  margin: auto;
+  border-top: 5px solid;
+  border-bottom: 5px solid;
+  border-right: 3px solid;
+  border-left: 3px solid;
+}
+
+#float {
+  float: right; /*this property allows you to take an element and place it as far to the left
+  or right of the containing element, you should use the width property always*/
+  width: 275px;
+  font-size: 130;
+  font-style:italic;
+  font-family: Georgia, Times, serif;
+  margin: 0px 0px 10px 10px;
+  padding: 10px;
+  border-top: 1px solid #665544;
+  border-bottom: 1px solid #665544;
+}
+img.float2 {
+  display: block;
+  margin: auto;
+}
+#content {
+  text-align: center;
+  overflow: auto;
+  height: 100%;
+}
+.footer {
+  background-color: #efefef;
+  color: black;
+}
+#nav, #feature {
+  background-color: #efefef;
+  text-decoration: underline;
+  padding: 10px;
+  margin: 10px;
+  color: black;
+}
+.column1, .column2, .column3, .column4 {
+  background-color: #efefef;
+  width: 300px;
+  float: left;
+  margin: 10px;
+  color: black;
+}
+.one1, .two2, .three3, .four4, .five5 {
+  display: inline; /*display allows you to change inline to block and vice versa*/
+  left: 250px;
+  margin-right: 10px;
+  color: black;
+}
+#list2 {
+  text-align: center;
+}
+#samsung1 {
+  text-align: center;
+  font-family: samsung;
+  font-size: 150%;
+}
+#tabinfo {
+  border: 1px solid red;
+}
+
+/*#nav, #footer {
+  background-color: #efefef;
+  padding: 0.5em 0;
+}
+#feature, .art*/
